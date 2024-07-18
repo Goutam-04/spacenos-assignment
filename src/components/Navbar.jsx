@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
-        {/* Logo  */}
+     
        
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
@@ -22,7 +22,7 @@ export const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Not An Ad-Blocker</span>
+                    <span>Spacenos</span>
                   </span>
                 </Link>
 
@@ -38,7 +38,7 @@ export const Navbar = () => {
                 href="https://github.com/Goutam-04"
                 target="_blank"
                 rel="noopener"
-                className="flex items-center space-x-2 px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+                className="flex items-center space-x-2 px-6 py-2 text-gray-500 dark:text-gray-400 rounded-md md:ml-5">
                 <svg
                   role="img"
                   width="24"
